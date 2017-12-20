@@ -101,6 +101,7 @@ public class FindViewByIdDialog extends JFrame implements ActionListener, IdBean
      * 添加头部
      */
     private void initTopPanel() {
+
         mPanelTitle.setLayout(new GridLayout(1, 4, 10, 10));
         mPanelTitle.setBorder(new EmptyBorder(5, 10, 5, 10));
         mTitleId.setHorizontalAlignment(JLabel.LEFT);
